@@ -12,8 +12,7 @@ namespace Debuggen
         static void Main(string[] args)
         {
             Error1();
-            //Error2();
-            //Error3(null);
+            Error2(null);
         }
 
         static void Error1()
@@ -30,12 +29,7 @@ namespace Debuggen
             }
         }
 
-        static void Error2()
-        {
-            //Point punt1 = new Point(0, 0);
-        }
-
-        static void Error3(string eenString)
+        static void Error2(string eenString)
         {
 
             Console.WriteLine($"Argument string '{eenString}' heeft een lengte van {eenString.Length} tekens");
