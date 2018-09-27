@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FirstWPFApp.Properties
+namespace SimpleGame.Properties
 {
 
 
